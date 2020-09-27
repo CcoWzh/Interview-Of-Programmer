@@ -12,19 +12,10 @@
 - [为面试选择一种语言](#为面试选择一种语言)
 - [如何学习](#如何学习)
 - [数据结构和算法](#数据结构和算法)
-  - [栈和队列](#栈和队列（Stack & Queue）)
-  - [链表](#链表)
 - [计算机网络协议](#计算机网络协议)
-  - [TCP和UDP](#TCP和UDP)
-  - [socket编程](#socket编程)
 - [操作系统](#操作系统)
-  - [进程和线程](#进程和线程)
-  - [I/O多路复用](#I/O多路复用)
 - [数据库](#数据库)
-  - [B-树和B+树](#B-树和B+树)
-  - [红黑树和HashMap](#红黑树和HashMap)
 - [Go语言](#Go语言)
-  - [Go并发编程](#Go并发编程)
 - [你的简历](#你的简历)
 
 ## 为面试选择一种语言
@@ -78,62 +69,52 @@
 
 ## 数据结构和算法
 
-掌握典型的、常见的数据结构和算法，不仅为了面试，也为了以后的编程生涯，都是必要的。
+掌握典型的、常见的数据结构和算法，不仅为了面试，也为了以后的编程生涯，都是必要的。面试中主要考察的数据结构和算法有：
 
-- ### 栈和队列（Stack & Queue）
-
-  - [ ] 我的文档总结
-  - [ ] [数据结构和算法(Golang实现)(14)常见数据结构-栈和队列](https://segmentfault.com/a/1190000022288631)
-
-- ### 链表
-
-- ### 二叉树
-
-- ### BFS和DFS
-
-  - [ ] `BFS`的编程框架
-
-- ### 二分查找
-
-  - [ ] 二分查找的一般框架
-
-- ### 回溯法
-
+- 栈和队列
+- 链表
+- BFS和DFS
+- 二分查找
+- 回溯法
   - [回溯算法详解（修订版）](https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247484709&idx=1&sn=1c24a5c41a5a255000532e83f38f2ce4&chksm=9bd7fb2daca0723be888b30345e2c5e64649fc31a00b05c27a0843f349e2dd9363338d0dac61&scene=21#wechat_redirect)
-
-- ### 排序算法
-
-  - [各大排序算法对比](https://goa.lenggirl.com/algorithm/sort.html)
-
-- ### 堆和优先队列
-
+- 各类排序算法
+- 堆和优先队列
   - [ 优先队列及堆排序](https://goa.lenggirl.com/algorithm/heaplike/heaps.html#优先队列及堆排序)
   - [图解排序算法(三)之堆排序](https://www.cnblogs.com/chengxiao/p/6129630.html)
+- 图论
 
-- ### 红黑树和HashMap
+特别的，有：
 
+- LRU缓存算法
+  - [动手写分布式缓存 - GeeCache第一天 LRU 缓存淘汰策略](https://geektutu.com/post/geecache-day1.html)
+  - [7天用Go从零实现系列](https://github.com/geektutu/7days-golang)
+- 红黑树和HashMap
   - [数据结构和算法(Golang实现)(29)查找算法-2-3树和左倾红黑树](https://segmentfault.com/a/1190000022289012)
   - [漫画：什么是HashMap？](https://zhuanlan.zhihu.com/p/31610616)
   - [Go 语言设计与实现--3.3哈希表](https://draveness.me/golang/)
 
-- ### LRU缓存算法
+学习资料：
 
-  - [动手写分布式缓存 - GeeCache第一天 LRU 缓存淘汰策略](https://geektutu.com/post/geecache-day1.html)
-  - [7天用Go从零实现系列](https://github.com/geektutu/7days-golang)
-
-- ### 学习资料
-
-  - [全部文章分类与整理（算法+数据结构+计算机基础），持续更新](https://mp.weixin.qq.com/s/MArPUE8wmDNMAalvzoLgcA)
-  - [算法模板(go语言版)](https://greyireland.gitbook.io/algorithm-pattern/)
-  - [算法的动态演示](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
-  - [小浩算法](https://www.geekxh.com/2.0.排序系列/0.hello.html)
+- [我的文档总结](./resources/数据结构和算法)
+- [数据结构和算法(Golang实现)(14)常见数据结构-栈和队列](https://segmentfault.com/a/1190000022288631)
+- [全部文章分类与整理（算法+数据结构+计算机基础），持续更新](https://mp.weixin.qq.com/s/MArPUE8wmDNMAalvzoLgcA)
+- [算法模板(go语言版)](https://greyireland.gitbook.io/algorithm-pattern/)
+- [算法的动态演示](https://www.cs.usfca.edu/~galles/visualization/Algorithms.html)
+- [小浩算法](https://www.geekxh.com/2.0.排序系列/0.hello.html)
 
 ## 计算机网络协议
 
-- ### `TCP`和`UDP`
+- ###  HTTP
+
+  - `http`和`https`的区别
+  - `http`的请求方法有哪些
+  - get和post的区别
+
+- ### TCP/IP协议
 
   - [ ] 三次握手和四次挥手
   - [ ] 滑动窗口
+  - [ ] 糊涂窗口综合征
   - [ ] 拥塞算法
   - [ ] 重传和丢包处理
   - [计算机网络很难吗？这篇文章足够!](https://www.toutiao.com/i6814395733114880520/?tt_from=weixin&utm_campaign=client_share&wxshare_count=1&timestamp=1586783361&app=news_article&utm_source=weixin&utm_medium=toutiao_android&req_id=20200413210921010129035144022F46FC&group_id=6814395733114880520)
@@ -144,13 +125,23 @@
 
   - [ ] [socket套接字编程](http://www.topgoer.com/网络编程/socket编程/)
 
+详情，可以查看总结文档：[计算机网络](./resources/计算机网络)
+
 ## 操作系统
 
 - ### 进程和线程
 
   - [ ] 什么是进程，什么是线程
-    - [go 中的GMP 原理与调度](http://www.topgoer.com/并发编程/GMP原理与调度.html)
     - [当初我要是这么学习「进程和线程」就好了（附带思维导图）](https://mp.weixin.qq.com/s/zVi45pZka_kPpKIoNXNVBA)
+  - [ ] 进程间的通信方式
+  - [ ] 进程的切换和线程的切换有什么不同，怎么切换
+  - [ ] 用户线程和内核线程的区别
+  - [ ] 线程和协程的区别
+
+- ### 虚拟内存
+
+  - [ ] 什么是虚拟内存，为什么需要虚拟内存
+  - [ ] 页存储和段存储的区别
 
 - ### I/O多路复用
 
@@ -165,25 +156,38 @@
   - [如何查看CPU](https://blog.csdn.net/yuanchunsi/article/details/79295801)
   - [如何查看进程情况](https://www.jianshu.com/p/002efd45ea46)
 
+详情，可以查看总结文档：[操作系统](./resources/操作系统)
+
 ## 数据库
 
-- ### B-树和B+树
+数据库是后端开发的重点，总结如下：
 
-  - [ ] `MySQL`的数据库底层`InnoDB`
-  - [ ] `InnoDB`的索引原理
+- ### MySQL数据库
+
+  - [ ] 索引的底层实现，数据结构
     - [【面试现场】为什么MySQL数据库要用B+树存储索引？](https://mp.weixin.qq.com/s/-qnYTrKNZeOE9Mvn4kyugg)
     - [高频面试题：什么是B树？为啥文件索引要用B树而不用二叉查找树？](https://mp.weixin.qq.com/s/eM_2ChIEkZb_kSXb6Q9n6g)
     - [MySQL索引背后的数据结构及算法原理](http://blog.codinglabs.org/articles/theory-of-mysql-index.html)
-
-- ### 数据库基础
-
-  - [ ] `MySQL`数据
+  - [ ] MySQL的主要数据库引擎有哪些，对比`InnoDB`和`MyisAM`的区别
+  - [ ] 有哪些索引，对比主键索引和唯一索引
+  - [ ] 最左匹配原则
+  - [ ] 什么是回表查询和覆盖索引
+  - [ ] 如何设计索引，怎么建立索引，需要注意什么
+  - [ ] MySQL的隔离级别，什么是事务
+  - [ ] 什么是脏读、不可重复读和幻读，他们的区别是什么
+  - [ ] MySQL怎么实现事务？
+  - [ ] MySQL怎么实现隔离级别中的可重复读，MVCC是什么
+  - [ ] 什么是乐观锁和悲观锁
+  - [ ] MySQL的一条语句的执行过程
     - [后端程序员必备：mysql数据库相关流程图/原理图](https://juejin.im/post/5d42f48cf265da03ab422e08)
-    - 索引
-    - 锁机制
-  - [ ] `Redis`数据库
-    - [Redis持久化RDB和AOF](https://juejin.im/post/5bb02c42e51d450e92524b6f)
 
+- ### `Redis`数据库
+
+  - [ ] `redis`的五种类型，相对应于哪些场景
+
+  - [ ] [Redis持久化RDB和AOF](https://juejin.im/post/5bb02c42e51d450e92524b6f)
+
+详情，可以查看总结文档：[数据库](./resources/数据库)
 
 ## Go语言
 
@@ -211,16 +215,12 @@
     - [golang 面试题整理](https://www.jianshu.com/p/6bf41d9dcb6e)
     - [Golang面试题解析](https://blog.csdn.net/weiyuefei/article/details/77963810?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-3.channel_param)
   
-- ### Go并发编程
+- ### Go并发原理
 
   - [ ] 什么是`gorountine`?
   - [ ] channel的使用和底层实现
   - [ ] select的底层原理
-  - [ ] `GMP`并发模型
-
-- ### 规范工具和测试工具
-
-  - [ ] 代码规范检测工具`golint`
+  - [ ] [go 中的GMP 原理与调度](http://www.topgoer.com/并发编程/GMP原理与调度.html)
 
 - ### gRPC原理
 
@@ -236,6 +236,8 @@
   - [数据结构和算法（Golang实现）](https://goa.lenggirl.com/)
   - [Go 语言设计与实现](https://draveness.me/golang/)
   - [Golang官网](https://go.dev/)
+
+详情，可以查看总结文档：[Golang](./resources/Golang)
 
 ## 工具
 
